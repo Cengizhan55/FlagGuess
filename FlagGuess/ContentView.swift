@@ -59,8 +59,8 @@ struct ContentView: View {
                                     .degrees(
                                         (number == availableNumber) ?
                                         Double(degrees) : 0.0),
-                                    axis: (x : 0 ,y: 1, z : 0))
-                            
+                                    axis: (x : 1 ,y: 1 , z : 1))
+                           
                         }
                     }
                 }
